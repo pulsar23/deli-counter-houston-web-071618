@@ -18,6 +18,8 @@ end
 
 def take_a_number(array, name)
   line_size = array.length
+  if line_size == 0 
+    puts "There is no one being served."
   array.push(name)
 end
 
