@@ -9,7 +9,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     katz_deli.each do |name|
-      list = list + "#{count}. #{name} "
+      list = list + "#{count}. #{name}  "
       count+=1
     end
   end
