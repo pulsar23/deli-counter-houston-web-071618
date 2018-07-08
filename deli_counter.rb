@@ -17,6 +17,7 @@ def line(array)
 end
 
 def take_a_number(array, name)
+  line_size = array.length
   array.push(name)
 end
 
