@@ -37,4 +37,5 @@ def now_serving(array)
   else
     current_person = array.first 
     puts "Currently serving #{current_person}."
+    array.shift
 end
