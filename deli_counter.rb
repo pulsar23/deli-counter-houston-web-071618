@@ -1,4 +1,3 @@
-katz_deli = []
 
 def line(katz_deli)
   temp_msg = "The line is currently: "
