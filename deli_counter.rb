@@ -33,5 +33,7 @@ end
 def now_serving(array)
   line_size = array.length
   if line_size == 0 
-    puts "There is nobody waiting to be served."
+    puts "There is nobody waiting to be served!"
+  else
+    
 end
