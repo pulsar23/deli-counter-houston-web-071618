@@ -19,7 +19,7 @@ end
 def take_a_number(array, name)
   line_size = array.length
   if line_size == 0 
-    puts "Welcome #{name}. You are number 1 in line."
+    puts "Welcome, #{name}. You are number 1 in line."
   else
     array.push(name)
     
