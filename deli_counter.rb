@@ -31,5 +31,7 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  
+  line_size = array.length
+  if line_size == 0 
+    puts "There "
 end
