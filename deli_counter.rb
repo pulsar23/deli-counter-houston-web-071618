@@ -21,7 +21,9 @@ def take_a_number(array, name)
   if line_size == 0 
     puts "Welcome, #{name}. You are number 1 in line."
   else
+    count = 1
     array.push(name)
+    
     
 end
 
