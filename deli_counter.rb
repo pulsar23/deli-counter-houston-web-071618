@@ -20,7 +20,8 @@ def take_a_number(array, name)
   line_size = array.length
   if line_size == 0 
     array.push(name)
-    puts "Welcome, #{name}. You are number 1 in line."
+    number = array.index(name) + 1 
+    puts "Welcome, #{name}. You are number #{number} in line."
   else
     array.push(name)
     number = array.index(name) + 1 
