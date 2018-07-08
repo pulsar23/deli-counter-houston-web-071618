@@ -19,8 +19,10 @@ end
 def take_a_number(array, name)
   line_size = array.length
   if line_size == 0 
-    puts "There is no one being served."
-  array.push(name)
+    puts "Welcome #{name}. You are number 1 in line."
+  else
+    array.push(name)
+    
 end
 
 #def now_serving(katz_deli)
