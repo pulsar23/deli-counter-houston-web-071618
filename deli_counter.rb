@@ -8,7 +8,7 @@ def line(array)
     puts "The line is currently empty."
   else
     array.each do |name|
-      list = list + "#{count}. #{name}  "
+      list = list + "#{count}. #{name} "
       count+=1
     end
     puts temp_msg + list
