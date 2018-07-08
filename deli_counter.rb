@@ -36,5 +36,5 @@ def now_serving(array)
     puts "There is nobody waiting to be served!"
   else
     current_person = array.first 
-    puts ""
+    puts "Currently serving #{current_person}."
 end
