@@ -12,9 +12,9 @@ def line(katz_deli)
       list = list + "#{count}. #{name}  "
       count+=1
     end
-    
+    puts temp_msg + list
   end
-  puts temp_msg + list
+
 end
 
 #def take_a_number(katz_deli, name)
