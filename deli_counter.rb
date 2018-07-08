@@ -1,13 +1,13 @@
 
-def line(katz_deli)
+def line(array)
   temp_msg = "The line is currently: "
-  line_size = katz_deli.length 
+  line_size = array.length 
   count = 1
   list = ""
   if line_size == 0 
     puts "The line is currently empty."
   else
-    katz_deli.each do |name|
+    array.each do |name|
       list = list + "#{count}. #{name}  "
       count+=1
     end
