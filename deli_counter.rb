@@ -16,9 +16,9 @@ def line(array)
 
 end
 
-#def take_a_number(katz_deli, name)
-#  katz_deli.push(name)
-#end
+def take_a_number(array, name)
+  array.push(name)
+end
 
 #def now_serving(katz_deli)
 #end
